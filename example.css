@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+    Slectores COMBINADORES, son 4:
+    - Selector descendiente      (space)
+    - Selector hijo              (>)
+    - Selector hermano adyacente (+)
+    - Selector hermano general   (~)
+*/
+
+/* Selector Descendiente */
+/* div p {
+    background-color: darkcyan;
+} */
+
+/* Selector Hijo */
+/* div > p {
+    background-color: darkgoldenrod;
+} */
+
+/* Selector Hermano Adyacente */
+/* div + p {
+    background-color: yellow;
+} */
+
+/* Selector Hermano General */
+/* div ~ p {
+    background-color: tomato;
+} */
+
+/* [attribute] Selector */
+/* a[target] {
+    background-color: yellow;
+} */
+
+/* [attribute="value"] 
+   Solo funciona cuando hay una palabra como valor de atributo y no mas.
+   Selecciona los elementos que tengan establecido un atributo llamado "attribute" y cuyo valor es una sola palabra que sea igual a "value"
+*/
+/* a[target="_parent"] {
+    background-color: tomato;
+}
+
+a[class="item1"] {
+    background-color: crimson;
+} */
+
+/* [attribute~="value"] 
+   Selecciona los elementos que tienen establecido un atributo llamado attribute y cuyo valor es una lista de palabras separadas por espacios en blanco en la que al menos una de ellas es exactamente igual al valor
+*/
+/* [title~="flower"] {
+    border: 2px solid black;
+} */
+
+/* [attribute|="value"] 
+   Selecciona los elementos que tienen establecido un atributo llamado "attribute" y cuyo valor es una serie de palabras separadas con guiones, pero que comienza con "value". Este tipo de selector sólo es útil para los atributos de tipo lang que indican el idioma del contenido del elemento
+*/
+/* [class|="top"] {
+    background-color: brown;
+} */

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+    Slectores COMBINADORES, son 4:
+    - Selector descendiente      (space)
+    - Selector hijo              (>)
+    - Selector hermano adyacente (+)
+    - Selector hermano general   (~)
+*/
+
+/* Selectores de atributo */
+
+/* CSS [attribute] Selector ////////////////////////////////////////////////////////////
+   Selecciona los elementos que tienen establecido el atributo llamado "attribute", independientemente de su valor
+*/
+/* [target] {
+    color: crimson;
+} */
+
+/* CSS [attribute="value"] Selector ////////////////////////////////////////////////////////////
+   Selecciona los elementos que tienen establecido un atributo llamado "attribute" con un valor igual a "value"
+*/
+/* [class="header"] {
+    color: indigo;
+} */
+
+/* CSS [attribute~="value"] Selector ////////////////////////////////////////////////////////////
+   Selecciona los elementos que tienen establecido un atributo llamado "atribute" y cuyo valor es una lista de palabras separadas por espacios en blanco en la que al menos una de ellas es exactamente igual a "value" 
+*/
+/* [class~="flor"] {
+    color: lightseagreen;
+} */
+
+/* CSS [attribute|="value"] Selector ////////////////////////////////////////////////////////////
+   Selecciona los elementos que tienen establecido un atributo llamado "attribute" y cuyo valor es una serie de palabras separadas por guiones, pero que comienza con "value"
+   --No funciona con palabras separadas por espacios en blanco 
+*/
+/* [class|="top"] {
+    color: maroon;
+} */
+
+/* CSS [attribute^="value"] Selector ////////////////////////////////////////////////////////////
+   Selecciona todos los elementos que disponen de ese atributo y cuyo valor es una lista de palabras separadas por espacios en blanco que comienza exactamente por la cadena de texto indicada
+   A diferencia de [attribute~="value"], en este es necesario que la lista de palabras empieze con "value"  
+*/
+/* [class^="Item"] {
+    color: mediumorchid;
+} */
+
+/* CSS [attribute$="value"] Selector ////////////////////////////////////////////////////////////
+   Selecciona todos los elementos que disponen de ese atributo y cuyo valor es una lista de palabras separadas por espacios en blanco que termina exactamente por la cadena de texto indicada 
+*/
+/* [class$="Item"] {
+    color: mediumseagreen;
+} */
+
+/* CSS [attribute*="value"] Selector ////////////////////////////////////////////////////////////
+   Selecciona todos los elementos que disponen de ese atributo y cuyo valor es una lista de palabras separadas por espacios en blanco que contiene la cadena de texto indicada 
+*/
+/* [class*="sec"] {
+    color: mediumseagreen;
+} */
